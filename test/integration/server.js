@@ -13,7 +13,8 @@ log.level = 'info';
 var Bitcore = require('bitcore-lib');
 var Bitcore_ = {
   btc: Bitcore,
-  bch: require('bitcore-lib-cash')
+  //bch: require('bitcore-lib-cash')
+  bch: Bitcore
 };
 
 
@@ -2535,7 +2536,7 @@ describe('Wallet service', function() {
   };
 
   _.each(['bch', 'btc'], function(coin) {
-  
+
     describe('#createTx ' + coin, function() {
       var addressStr, idKey;
       before(function() {
@@ -2548,7 +2549,7 @@ describe('Wallet service', function() {
       describe('Tx proposal creation & publishing ' + coin, function() {
         var server, wallet;
         beforeEach(function(done) {
-          helpers.createAndJoinWallet(1, 1, { 
+          helpers.createAndJoinWallet(1, 1, {
             coin: coin,
           },  function(s, w) {
             server = s;
