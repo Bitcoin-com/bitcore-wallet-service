@@ -13,11 +13,11 @@
     "BWS"
   ],
   "repository": {
-    "url": "git@github.com:bitpay/bitcore-wallet-service.git",
+    "url": "git@github.com:Bitcoin-com/bitcore-lib-cash.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/bitcore-wallet-service/issues"
+    "url": "https://github.com/Bitcoin-com/bitcore-lib-cash/issues"
   },
   "dependencies": {
     "async": "^0.9.2",
