@@ -13,8 +13,7 @@ log.level = 'info';
 var Bitcore = require('bitcore-lib');
 var Bitcore_ = {
   btc: Bitcore,
-  //bch: require('bitcore-lib-cash')
-  bch: Bitcore
+  bch: require('bitcore-lib-cash')
 };
 
 
