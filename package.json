@@ -13,11 +13,11 @@
     "BWS"
   ],
   "repository": {
-    "url": "git@github.com:Bitcoin-com/bitcore-wallet-service-v3.git",
+    "url": "git@github.com:Bitcoin-com/bitcore-wallet-service.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/Bitcoin-com/bitcore-wallet-service-v3/issues"
+    "url": "https://github.com/Bitcoin-com/bitcore-wallet-service/issues"
   },
   "dependencies": {
     "async": "^0.9.2",
