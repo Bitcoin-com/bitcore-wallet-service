@@ -1,5 +1,8 @@
-[{"id": "purse-io-banner",
-  "image": "banner-purseio.jpg",
-  "url": "https://app.purse.io?_r=bitcoinwallet",
-  "enabled": true
-}]
+[
+  {
+    "id": "purse-io-banner",
+    "image": "banner-purseio.jpg",
+    "url": "https://app.purse.io?_r=bitcoinwallet",
+    "enabled": true
+  }
+]
