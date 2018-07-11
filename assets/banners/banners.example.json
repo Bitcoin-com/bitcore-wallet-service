@@ -1,0 +1,11 @@
+[{
+  "id": "example-banner",
+  "image": "example-image.png",
+  "url": "https://example.com/",
+  "enabled": true
+},{
+  "id": "example-disabled-banner",
+  "image": "example-image.png",
+  "url": "https://example.com/",
+  "enabled": false
+}]
