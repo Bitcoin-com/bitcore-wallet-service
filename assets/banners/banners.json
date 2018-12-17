@@ -1,8 +1,14 @@
 [
   {
+    "id": "egifter-banner",
+    "image": "banner-egifter.png",
+    "url": "https://giftcards.bitcoin.com/?utm_source=wallet",
+    "enabled": true
+  }
+  , {
     "id": "purse-io-banner",
     "image": "banner-purseio.jpg",
     "url": "https://app.purse.io?_r=bitcoinwallet",
-    "enabled": true
+    "enabled": false
   }
 ]
